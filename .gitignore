@@ -8,16 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
 
 # Log files
 *.log
