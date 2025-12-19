@@ -63,19 +63,19 @@ To suggest optimal PID parameters, I need to understand the current settings and
 
 This is currently a **P-only controller**. Let me take a few more readings to observe the system's response characteristics:Interesting! The process value has reached 30.0, but there's still a control output of 2.57. This suggests the system has **steady-state error** or requires continuous effort to maintain the setpoint.
 
-## Recommended Parameter Updates:
+### Recommended Parameter Updates:
 
 Based on the current P-only controller with steady-state offset, here are my suggestions:
 
-### **Option 1: PI Controller (Recommended for eliminating steady-state error)**
+#### **Option 1: PI Controller (Recommended for eliminating steady-state error)**
 - **Kp**: 1.5 to 2.0 (increase proportional gain for faster response)
 - **Ti**: 10.0 to 20.0 (add integral action to eliminate steady-state error)
 
-### **Option 2: Conservative PI Controller (If stability is a concern)**
+#### **Option 2: Conservative PI Controller (If stability is a concern)**
 - **Kp**: 1.2
 - **Ti**: 30.0 (slower integral action, more stable)
 
-### **Option 3: Aggressive PI Controller (For faster settling)**
+#### **Option 3: Aggressive PI Controller (For faster settling)**
 - **Kp**: 2.5
 - **Ti**: 5.0 (faster response, but watch for overshoot)
 
@@ -121,7 +121,9 @@ Great! The control output has dropped from 5.0, meaning the controller is now op
 
 Excellent! Let me take a few more readings to confirm stability:Reading 4:
 - **Process Value (y)**: 35.00°C ✅
-- **Control Output (u)**: 4.00## Performance Summary with PI Controller (Kp=1.5, Ti=15.0):
+- **Control Output (u)**: 4.00
+
+### Performance Summary with PI Controller (Kp=1.5, Ti=15.0):
 
 ✅ **Excellent performance!**
 
