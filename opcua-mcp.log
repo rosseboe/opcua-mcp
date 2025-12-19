@@ -1,0 +1,7 @@
+2025-12-19 14:12:17,982 - opcua-mcp - INFO - Starting opcua-mcp server!
+2025-12-19 14:17:44,134 - opcua-mcp - ERROR - Write failed: Node.write_value() missing 1 required positional argument: 'value'
+2025-12-19 14:17:48,408 - opcua-mcp - ERROR - Write failed: Node.write_value() missing 1 required positional argument: 'value'
+2025-12-19 14:20:09,753 - opcua-mcp - ERROR - Write failed: Node.write_value() missing 1 required positional argument: 'value'
+2025-12-19 14:20:12,898 - opcua-mcp - ERROR - Write failed: Node.write_value() missing 1 required positional argument: 'value'
+2025-12-19 14:21:09,183 - opcua-mcp - ERROR - Write failed: Node.write_value() missing 1 required positional argument: 'value'
+2025-12-19 14:24:04,828 - opcua-mcp - ERROR - Write failed: Node.write_value() missing 1 required positional argument: 'value'
