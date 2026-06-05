@@ -5,6 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "asyncua>=1.1.8",
+    "asyncua>=2.0",
     "fastmcp>=3.3.1",
 ]
