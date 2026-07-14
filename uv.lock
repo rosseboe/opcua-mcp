@@ -47,7 +47,7 @@ wheels = [
 
 [[package]]
 name = "asyncua"
-version = "2.0"
+version = "2.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiosqlite" },
@@ -59,9 +59,9 @@ dependencies = [
     { name = "sortedcontainers" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/34/68/45ac78aad9cd723c56bc27877e1a74708e7fe5440688c8601b725351f594/asyncua-2.0.tar.gz", hash = "sha256:a5f7888188846597326be623f32708c3910ab1cd95b2c6aff539b3fabd38fa32", size = 1212573, upload-time = "2026-06-05T09:25:05.201Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d9/7d/14830444700e18631853c417b05472c7036cd266e90866e8d0ae4bcd7c72/asyncua-2.0.1.tar.gz", hash = "sha256:f9f73804b4d56a12aaad7a2f062b15f08c856718d93a10c647d82a9f38f787df", size = 1213396, upload-time = "2026-06-29T07:14:43.388Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/56/80/257e1a34f4a398251061427c31aa92a6222fdfe536c89fd4003e5ceda024/asyncua-2.0-py3-none-any.whl", hash = "sha256:503453df9533cbc14cba5792ce2bc7d6648cc66093e7d2652bb4d53e410cfa75", size = 1313180, upload-time = "2026-06-05T09:25:03.042Z" },
+    { url = "https://files.pythonhosted.org/packages/fc/8e/37545889e8fa056accb03fe3f546fcf0f3e49192682f1dfa913a18fc5937/asyncua-2.0.1-py3-none-any.whl", hash = "sha256:f21d58c78f6fa9b592c7c29890527e530a35cbb4ac9f96002b6bddce7425a404", size = 1314333, upload-time = "2026-06-29T07:14:45.395Z" },
 ]
 
 [[package]]
@@ -715,7 +715,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "asyncua", specifier = ">=2.0" },
+    { name = "asyncua", specifier = ">=2.0.1" },
     { name = "fastmcp", specifier = ">=3.4.4" },
 ]
 
