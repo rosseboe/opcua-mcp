@@ -1,5 +1,7 @@
 # MCP and OPC UA
 
+[![SafeSkill 92/100](https://img.shields.io/badge/SafeSkill-92%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/rosseboe-opcua-mcp)
+
 [MCP (Model Context Protocol)](https://modelcontextprotocol.io/docs/getting-started/intro) is an open-source standard for connecting AI applications to external systems. A simple MCP server, based on [FastMCP](https://gofastmcp.com/getting-started/welcome) was made with the help from Claude AI.
 
 The MCP server exposes the following tools 
